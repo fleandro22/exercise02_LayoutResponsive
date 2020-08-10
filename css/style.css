@@ -2,7 +2,7 @@
 :root{
 
 	--text-color      : #b1adad;
-	--background-color: #ff3249c9;
+	--background-color: white;
 }
 
 body{
@@ -14,7 +14,7 @@ body{
 
 }
 
-.circle{
+/*.circle{
 
 	width                : 750px;
 	height               : 750px;
@@ -31,16 +31,16 @@ body{
 	margin-top           : 3%;
 	z-index              : -1;
     
-}
+}*/
 
 
 
 .container{
 
-	width           : 50%;
+	width           : 90%;
 	border          : 1px solid black;
 	margin          : 0 auto;
-	margin-top      : 8%;
+	/*margin-top      : 8%;*/
 	background-color: #403131;
 	padding         : 20px;
 	box-sizing      : border-box;
@@ -421,7 +421,7 @@ nav .nav-rigth a{
 	.main_section{
 
 		margin-top: 40px;
-		height: 100vh;
+		/*height: 100vh;*/
 	}
 
 	.article2{
@@ -453,7 +453,7 @@ nav .nav-rigth a{
 	.main_section{
 
 		margin-top: 120px;
-		height: 100vh;
+		/*height: 100vh;*/
 	}
 
 	.main-grid{
