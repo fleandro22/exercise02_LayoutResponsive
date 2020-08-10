@@ -1,11 +1,19 @@
- body{
+/*VARIABLES*/
+:root{
+
+	--text-color      : #b1adad;
+	--background-color: #ff3249c9;
+}
+
+body{
 
 	margin          :0;
 	padding         : 0;
-	background-color: #ff3249c9;
+	background-color: var(--background-color);
 	font-family: 'Tenor Sans', sans-serif;
 
 }
+
 
 /*.circle{//tablet
 
@@ -22,20 +30,20 @@
 
 .circle{
 
-	width: 750px;
-    height: 750px;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    background: white;
-    position: absolute;
-    top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	margin: auto;
-	margin-top: 3%;
-	z-index: -1;
+	width                : 750px;
+	height               : 750px;
+	-moz-border-radius   : 50%;
+	-webkit-border-radius: 50%;
+	border-radius        : 50%;
+	background           : white;
+	position             : absolute;
+	top                  : 0;
+	left                 : 0;
+	right                : 0;
+	bottom               : 0;
+	margin               : auto;
+	margin-top           : 3%;
+	z-index              : -1;
     
 }
 
@@ -44,7 +52,6 @@
 .container{
 
 	width           : 50%;
-	/*height          : 99vh;*/
 	border          : 1px solid black;
 	margin          : 0 auto;
 	margin-top      : 8%;
@@ -54,6 +61,22 @@
 	
 }
 
+.main-grid-left span{
+
+	color: var(--text-color);
+}
+
+.description-text{
+	padding-bottom: 30px;
+	color: var(--text-color);
+}
+
+
+.description-text-rigth{
+
+	margin-top:10px;
+	color: var(--text-color);
+}
 
 @media (min-width: 1151px) and (max-width: 1445px){
 
@@ -139,7 +162,7 @@
 		-webkit-border-radius: 2px;
 		-moz-border-radius   : 2px;
 		border-radius        : 2px;
-	  }
+  	}
 
 	.hamburger-menu .bar1, .hamburger-menu .bar2, .hamburger-menu .bar3 {
 	    background-color: white;
@@ -152,22 +175,41 @@
 		grid-template-columns: 40% 60%;
 		height: 300px;
 		color: white;
-		/*margin-top: 40px;*/
 	}
 
 	.main-grid-left{
 		display: grid;
-		grid-template-rows: 1fr 1fr 1fr;
+		grid-template-rows: 25% 43% 32%;
 
 	}
 
 	.main-rigth{
 		
 		display: grid;
-		grid-template-rows: 20% 80%;
+		grid-template-rows: 20% 60%;
 		border-left: 1px solid gray;
 		height: auto;
 
+	}
+
+
+	.main-rigth2{
+		
+		display: grid;
+		grid-template-rows: 20% 20% 60%;
+		border-left: 1px solid gray;
+		height: auto;
+
+	}
+
+	.main-rigth2 div:nth-child(3){
+
+		margin-top: 10px;
+	}
+
+	.main-grid-left div:nth-child(3){
+
+		margin-top: 5px;
 	}
 
 	#card1{
@@ -182,14 +224,14 @@
 		background-image: url('http://lorempixel.com/output/city-q-g-640-480-3.jpg');
 	    background-repeat: no-repeat;
 	    /*background-size: contain;*/
-	    height: 90%;
+	    height: 97%;
 	    background-position: bottom;
 	}
 
 	.text-date{
 
 		font-family: 'Tenor Sans', sans-serif;
-		color: #ff3249c9;
+		color: var(--background-color);
 
 
 	}
@@ -215,6 +257,9 @@
 
 		margin-top: 70px!important;    
 		height: 100%!important;
+		margin-left: 10px;
+		border-left: 1px solid gray;
+		padding-left: 10px;
 	}
 
 }
@@ -357,7 +402,7 @@
 	.text-date{
 
 		font-family: 'Tenor Sans', sans-serif;
-		color: #ff3249c9;
+		color: var(--background-color);
 
 
 	}
