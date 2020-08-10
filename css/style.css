@@ -258,7 +258,7 @@ nav .nav-rigth a{
 	#card1{
 		background-image: url('../images/img1.jpg');
 	    background-repeat: no-repeat;
-	    /*background-size: contain;*/
+	    background-size: cover;
 	    height: 90%;
 	    background-position: bottom;
 	}
