@@ -249,10 +249,7 @@ nav .nav-rigth a{
 /*resolution movil 395*/
 @media only screen and (max-width: 767px) {
 
-	body{
 
-		background-color: yellow;
-	}
 	.header-details{
 
 		grid-template-columns: 90%;
@@ -327,11 +324,6 @@ nav .nav-rigth a{
 /*resolution tablet*/
 @media (min-width: 768px) and (max-width: 1149px) {
 	
-	body{
-
-		background: red;
-	}
-
 
 	.header-details{
 
@@ -406,12 +398,6 @@ nav .nav-rigth a{
 
 @media (min-width: 1150px) and (max-width: 1444px){
 
-	
-	body{
-
-		background: purple;
-	}
-
 
 	.main_section{
 
@@ -447,22 +433,8 @@ nav .nav-rigth a{
 
 }
 
-@media (min-width: 1445px) and (max-width: 1674px){
+@media (min-width: 1445px) and (max-width: 1920px){
 
-	body{
-
-		background: pink;
-		
-	}
-
-	/*.main_section{
-
-		height: 100vh;
-	}
-
-	.main-grid{
-		height: 100%;
-	}*/
 
 	#card1, #card2{
 		height: 80%;
@@ -477,41 +449,6 @@ nav .nav-rigth a{
 
 
 }
-
-
-/*@media (min-width: 1151px) and (max-width: 1445px){
-
-	
-	.main-rigth2 div:nth-child(3){
-
-		margin-top: 10px;
-	}
-
-	.main-grid-left div:nth-child(3){
-
-		margin-top: 5px;
-	}
-
-	#card1{
-
-		background-size: cover;
-	  
-	}
-
-	#card2{
-	    height: 97%;
-	}
-
-	
-	.main-rigth2{
-	
-		grid-template-rows: 30% 70%;
-		padding-top:30%;
-
-	}
-
-}*/
-
 
 
 
